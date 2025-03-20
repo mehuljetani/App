@@ -25,6 +25,7 @@ DerivedData
 *.mobileprovision
 ios-fastlane-json-key.json
 **/.xcode.env.local
+ios/tmp.xcconfig
 
 # Android/IntelliJ
 #
@@ -44,6 +45,9 @@ android/app/src/main/java/com/expensify/chat/generated/
 
 # Vscode
 .vscode
+
+# Fleet
+.fleet
 
 # node.js
 #
@@ -82,7 +86,6 @@ android/app/android-fastlane-json-key.json
 /vendor/bundle/
 
 # Local DEV config
-/.env
 
 # Storybook build files
 storybook-static
@@ -143,3 +146,4 @@ docs/.bundle
 
 # Output of react compiler healthcheck dev script
 react-compiler-output.txt
+config.bat
